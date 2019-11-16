@@ -1,14 +1,14 @@
 import React from 'react';
 
-function TechElement(props) {
+function TechElement({ key, id, src, title }) {
     return (
       <>
-        <p>Tech Element!</p>
-        <img
-          src=""
-          style={{width: '100px'}}
-          alt=""
-          srcset=""
+        <img 
+            key={key} 
+            id={id} 
+            src={src} 
+            alt={title} 
+            style={{width:"100px",height:"100px"}}
         />
       </>
     );
