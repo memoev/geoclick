@@ -4,15 +4,11 @@ function Nav() {
   return (
     <nav class="navbar navbar-expand-lg">
       <a class="navbar-brand" href="/">
-        Navbar
+        Click Reaction
       </a>
       <div class="navbar" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <a class="nav-item nav-link" href="/">
-            Home <span class="sr-only">(current)</span>
-          </a>
-          <a class="nav-item nav-link" href="/">
-            Features
           </a>
         </div>
       </div>
