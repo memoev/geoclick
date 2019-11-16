@@ -1,20 +1,14 @@
+body {
+  background-color: #282c34;
+}
+
 img {
   display: inline-block;
-}
-
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
+  margin-inline: 1em;
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
-}
-
-.App-link {
-  color: #09d3ac;
+  margin: auto !important;
+  width: 80% !important;
 }
