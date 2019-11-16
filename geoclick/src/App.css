@@ -4,7 +4,7 @@ body {
 
 img {
   display: inline-block;
-  margin-inline: 1em;
+  margin: 1em;
 }
 
 .App-header {
