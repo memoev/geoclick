@@ -7,6 +7,10 @@ img {
   margin: 1em;
 }
 
+nav {
+  background-color: #282c34;
+}
+
 .App-header {
   min-height: 100vh;
   margin: auto !important;
