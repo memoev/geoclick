@@ -7,5 +7,8 @@
     { "id": 6, "src": "./images/assets/mysql.png", "title": "mysql" },
     { "id": 7, "src": "./images/assets/nodejs.png", "title": "nodejs" },
     { "id": 8, "src": "./images/assets/react.png", "title": "react" },
-    { "id": 9, "src": "./images/assets/yarn.png", "title": "yarn" }
+    { "id": 9, "src": "./images/assets/yarn.png", "title": "yarn" },
+    { "id": 10, "src": "./images/assets/redux.png", "title": "redux" },
+    { "id": 11, "src": "./images/assets/html.png", "title": "html" },
+    { "id": 12, "src": "./images/assets/css.png", "title": "css" }
 ]
