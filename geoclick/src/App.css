@@ -5,10 +5,13 @@ body {
 img {
   display: inline-block;
   margin: 1em;
+  padding: 0.25em;
+  border: solid 0.25em #000;
+  background: #fff;
 }
 
 nav {
-  background-color: #282c34;
+  background-color: #282c60;
 }
 
 .App-header {

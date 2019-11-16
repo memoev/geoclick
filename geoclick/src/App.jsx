@@ -6,8 +6,8 @@ import './App.css';
 function App() {
   return (
     <>
+      <Nav />
       <header className="App-header">
-        <Nav />
         <Tech className="App"/>
       </header>
     </>

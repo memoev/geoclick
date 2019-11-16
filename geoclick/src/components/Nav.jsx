@@ -8,7 +8,7 @@ function Nav() {
       </a>
       <div class="navbar" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="/">
+          <a class="nav-item nav-link" href="/">
             Home <span class="sr-only">(current)</span>
           </a>
           <a class="nav-item nav-link" href="/">
