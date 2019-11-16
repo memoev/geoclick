@@ -1,13 +1,14 @@
 import React from 'react';
+import Tech from './components/Tech';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <>
       <header className="App-header">
-        Hi!
+        <Tech className="App"/>
       </header>
-    </div>
+    </>
   );
 }
 
