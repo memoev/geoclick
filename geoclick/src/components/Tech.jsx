@@ -14,7 +14,7 @@ class Tech extends Component {
             <h2>Clicky game!</h2>
             <p>
               Click on an image to earn points, but don't click on any more than
-              once!
+              once or you'll have to start over again!
             </p>
             {this.state.images.map(({ id, src, title }) => (
               <TechElement key={id} id={id} src={src} title={title} />
