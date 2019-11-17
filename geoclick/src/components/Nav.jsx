@@ -2,14 +2,13 @@ import React from "react";
 
 function Nav() {
   return (
-    <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="/">
+    <nav className="navbar navbar-expand-lg">
+      <a className="navbar-brand" href="/">
         Click Reaction
       </a>
-      <div class="navbar" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link" href="/">
-          </a>
+      <div className="navbar" id="navbarNavAltMarkup">
+        <div className="navbar-nav">
+          <a className="nav-item nav-link" href="/"></a>
         </div>
       </div>
     </nav>
