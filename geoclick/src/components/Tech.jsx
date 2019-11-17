@@ -7,12 +7,13 @@ class Tech extends Component {
     state = {
         images,
         click: 0,
-        topScore: 0
+        topScore: 0,
+        guess: '',
     };
 
     handleTechElementClick = event => {
       const plusClick = this.state.click + 1
-      this.setState({ click: plusClick, topScore: plusClick })
+      this.setState({ click: plusClick, topScore: plusClick, guess: 'You guessed correctly!' })
       this.shuffleTechElements();
     }
 
@@ -29,6 +30,7 @@ class Tech extends Component {
               Click on an image to earn points, but don't click on any more than
               once or you'll have to start over again!
             </p>
+            <div className='guess'>{this.state.guess ? this.state.guess : <b>Are you ready?</b>}</div>
             <div>Score: {this.state.click} | Top Score: {this.state.topScore}</div>
             {this.state.images.map(({ id, src, title }) => (
               <TechElement
