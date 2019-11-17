@@ -23,10 +23,12 @@ class Tech extends Component {
   educatedGuess = (plusClick, elementId) => {
     this.setState({
       click: plusClick,
-      topScore: plusClick,
+      imagesClicked: [...this.state.imagesClicked, elementId],
       guess: "You guessed correctly!"
     });
-    this.state.imagesClicked.push(elementId);
+    (this.state.topScore >= plusClick)
+    ? this.setState({ topScore: this.state.topScore })
+    : this.setState({ topScore: plusClick})
   };
 
   uneducatedGuess = () => {
