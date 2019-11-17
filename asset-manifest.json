@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/geoclick/static/css/main.36f1105d.chunk.css",
+    "main.js": "/geoclick/static/js/main.c5d06060.chunk.js",
+    "main.js.map": "/geoclick/static/js/main.c5d06060.chunk.js.map",
+    "runtime-main.js": "/geoclick/static/js/runtime-main.953ebff6.js",
+    "runtime-main.js.map": "/geoclick/static/js/runtime-main.953ebff6.js.map",
+    "static/js/2.a6a43cb7.chunk.js": "/geoclick/static/js/2.a6a43cb7.chunk.js",
+    "static/js/2.a6a43cb7.chunk.js.map": "/geoclick/static/js/2.a6a43cb7.chunk.js.map",
+    "index.html": "/geoclick/index.html",
+    "precache-manifest.2429c8c77a27b0a17b37885708a94d23.js": "/geoclick/precache-manifest.2429c8c77a27b0a17b37885708a94d23.js",
+    "service-worker.js": "/geoclick/service-worker.js",
+    "static/css/main.36f1105d.chunk.css.map": "/geoclick/static/css/main.36f1105d.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.953ebff6.js",
+    "static/js/2.a6a43cb7.chunk.js",
+    "static/css/main.36f1105d.chunk.css",
+    "static/js/main.c5d06060.chunk.js"
+  ]
+}
