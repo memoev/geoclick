@@ -12,7 +12,13 @@ class Tech extends Component {
 
     handleTechElementClick = event => {
       const plusClick = this.state.click + 1
-      this.setState({ click: plusClick, topScore: plusClick });
+      this.setState({ click: plusClick, topScore: plusClick })
+      this.shuffleTechElements();
+    }
+
+    shuffleTechElements = () => {
+      const newArray = this.state.images.sort(() => Math.random() - 0.5);
+      this.setState({ images: newArray });
     }
 
     render() {
