@@ -4,12 +4,16 @@ body {
   text-align: center;
 }
 
-img {
+button {
   display: inline-block;
   margin: 1em;
   padding: 0.25em;
   border: solid 0.25em #000;
   background: #fff;
+}
+
+button:hover {
+  transform: scale(1.1);
 }
 
 nav {
